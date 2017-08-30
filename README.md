@@ -8,7 +8,8 @@ Just a few helpers for accessing google sheets as json
 | parameter     | Description |
 | ------------- |:-----------:|
 | url/id        | The id of the google sheet, or the entire url in the format: "https://spreadsheets.google.com/feeds/list/13qiQDk9L7YjSNTAOP-Hj8obRHRd9DuHt31GlvtDA/od6/public/values?alt=json" or "13qiQDk9L7YjSNTAOP-Hj8obRHRd9DuHt31GlvtDA" |
-
+| callback | the function to call when we have data |
+| prettify | a boolean (default true). If it's true, cleans up googles names, so gsx$name.$t becomes name |
 ### FetchGoogleJSON
 A wrapper around the fetch API, with a helper method to clean up Google's JSON
 
