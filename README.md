@@ -13,3 +13,11 @@ function show(d){
     console.log(d)
 }
 ```
+
+You can also pass in the id of the sheet, like
+```javascript
+new FetchGoogleJSON("13qiQDk9L7YjSNTAOP-Hj8obRHRd9DuHt31GlvtDs99A", show);
+function show(d){
+    console.log(d)
+}
+```
